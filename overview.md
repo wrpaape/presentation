@@ -261,5 +261,29 @@ OpenCyc needs to be shut down(perhaps another team should take it over?) , and t
 	- "Look at all the things I'm not doing, look at all the configuration I'm not writing!"
 	- 0 to functioning blog app in 15 mins
 
+- [easy translate gem](https://github.com/seejohnrun/easy_translate)
+	
+	request free trial (make new gmail account)
 
+	generate api key (click button)
+	> your API key is: 'xxxxx'
+	
+	enable google translate api (click button)
+
+	gem install easy_translate (terminal command)
+
+	can now translate 15 million characters of text (up to 2 million/day)
+
+	irb
+
+		EasyTranslate.api_key = 'xxxxx'
+
+		EasyTranslate.translate('Hello', to: :es)
+		=> "Hola"
+
+		EasyTranslate.translate('Hola', to: :en)
+		#=> "Hey there"
+
+	- can run this line of code in my server
+	- my program just learned Spanish for all I care, like Neo from the Matrix
 
