@@ -42,7 +42,7 @@ Baby's First Knowledge-Based App
 
 	5. Alchemy API
 
-	6. [(choppy) Michael Witbrock lecture](http://videolectures.net/iswc08_witbrock_fsc/)
+	6. [(choppy til end) Michael Witbrock lecture](http://videolectures.net/iswc08_witbrock_fsc/)
 		- logistics reasoning
 			- instead of spending ~1 year developing own logistics ontology in RDF, opencyc
 			- "richly represented"
@@ -149,7 +149,7 @@ OpenCyc needs to be shut down(perhaps another team should take it over?) , and t
 	>OpenCyc’s inference engine and object store are not free software
 
 	
-- hidden sourceforge forums
+- hidden sourceforge forums (not listed on dev.cyc.com)
 
 
 
@@ -284,6 +284,11 @@ OpenCyc needs to be shut down(perhaps another team should take it over?) , and t
 		EasyTranslate.translate('Hola', to: :en)
 		#=> "Hey there"
 
+		EasyTranslate.translations_available
+		=> ["af", "ar", "az", "be", "bg", "bn", "bs", "ca", "ceb", "cs", "cy", "da", "de", "el", "en", "eo", "es", "et", "eu", "fa", "fi", "fr", "ga", "gl", "gu", "ha", "hi", "hmn", "hr", "ht", "hu", "hy", "id", "ig", "is", "it", "iw", "ja", "jw", "ka", "kk", "km", "kn", "ko", "la", "lo", "lt", "lv", "mg", "mi", "mk", "ml", "mn", "mr", "ms", "mt", "my", "ne", "nl", "no", "ny", "pa", "pl", "pt", "ro", "ru", "si", "sk", "sl", "so", "sq", "sr", "st", "su", "sv", "sw", "ta", "te", "tg", "th", "tl", "tr", "uk", "ur", "uz", "vi", "yi", "yo", "zh", "zh-TW", "zu"]
+
+		_.length #=> 91
+
 	- can run this line of code in my server
-	- my program just learned Spanish for all I care, like Neo from the Matrix
+	- my program just learned Spanish (and 90 other languages) for all I care, like Neo from the Matrix
 
